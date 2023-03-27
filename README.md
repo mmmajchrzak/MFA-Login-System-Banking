@@ -4,3 +4,11 @@ Works ofc on Android devices with biometric (fingerprint) scanner. Decided to ge
 - slow pace of action
 - unreliability
 - lack of high end security (comparing with Face ID)
+
+
+
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
