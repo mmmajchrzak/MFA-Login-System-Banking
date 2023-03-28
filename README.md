@@ -2,7 +2,7 @@
 
 ## 1. Charakterystyka oprogramowowania
 
-* Nazwa pełna: **System bezpiecznej bankowości mobilnej na urządzenia z systemem Android**
+* Nazwa pełna: **System bezpiecznej bankowości mobilnej na urządzenia z systemem operacyjnym Android**
 * Krótki opis: Aplikacja mobilna na urządzenia z systemem operacyjnym Android, umożliwiająca użytkownikom bezpieczną bankowość mobilną. Aplikacja wykorzytuje MFA - Multi-factor authentication w celu zabezpieczenia aplikacji przed dostępem osób nieporządanych.
 #### Cele: 
 * System umożliwia klientom rejestrację konta i logowanie,
@@ -32,41 +32,40 @@ Licencja MIT jest uważana za bardzo liberalną, co oznacza, że pozwala na swob
 |W\_FUN\_1|Wyświetlenie ekranu autoryzacji| Wymagane jest, aby aplikacja wyświetlała ekran, na którym klient będzie w stanie dostrzec jakie dane są wymagane do zautoryzowania urządzenia oraz do weryfikacji tożsamosci. Wymagane 5 textboxów z obsługą błędów.|1 - Wymagane|
 |W\_FUN\_2|Uwierzytelnianie| Wymagane jest aby aplikacja zapewniała uwierzytelnienie użytkownika przed udzieleniem mu dostępu do aplikacji. Może to obejmować uwierzytelnianie za pomocą hasła oraz PIN-u lub odcisku palca. |1 - Wymagane|
 |W\_FUN\_3|Zmiana hasła| Wymagane jest, aby aplikacja umożliwiała użytkownikowi możliwość zmainy hasła (do 3 zmian na 24h). Do procedury zmiany hasła wymagana będzie weryfikacja biometryczna (Touch ID). Wymagane jesy aby hasła były przechowywane w bezpieczny sposób oraz był szyfrowane z poziomu w bazy danych. |1 - Wymagane|
-|W\_FUN\_4|Zmiana hasła| Zarządzanie kontami: użytkownik powinien mieć możliwość przeglądania stanu swoich kont, historii transakcji oraz dokonywania przelewów. |1 - Wymagane|
+|W\_FUN\_4|Zarządzanie kontami| Zarządzanie kontami: użytkownik powinien mieć możliwość przeglądania stanu swoich kont, historii transakcji oraz dokonywania przelewów. |1 - Wymagane|
 |W\_FUN\_5|Brute force| Wymagane jest aby aplikacja posiadała zabezpieczenia przed atakami. Aplikacja powinna mieć mechanizmy zabezpieczające przed atakami typu brute-force, tj. wielokrotne próby logowania z błędnym hasłem. |1 - Wymagane|
-|W\_FUN\_6|Zmiana motywu| Wymagane jest, aby aplikacja zawierała mechanizm Zmaiany motywu z jasnego na ciemny i odwrotnie.|2 - Oczekiwana|
-|W\_FUN\_7|Kokpit| Wymagane jest, aby klient mia wgląd w stan konta/kont. |2 - Oczekiwana|
-|W\_FUN\_8|Multikonta| Wymagane jest, aby aplikacja umożliwiała użytkownikowi korzystanie z kont wielowalutowych. |3 - Dodatkowa|
+|W\_FUN\_6|Kokpit| Wymagane jest, aby klient mia wgląd w stan konta/kont. |2 - Oczekiwane|
+|W\_FUN\_7|Multikonta| Wymagane jest, aby aplikacja umożliwiała użytkownikowi korzystanie z kont wielowalutowych. |3 - Dodatkowa|
+|W\_FUN\_8|Synchronizacja z GCP| Wymagane jest, aby aplikacja posiadała synchronizację z GCP |3 - Dodatkowa|
 
 2) **Wymagania niefuncjonalne**
 
-|**Identyfikator**|**Podkategoria**|**Nazwa krótka**|**Opis**|**Priorytet**|
-| :- | :- | :- | :- | :- |
-|W\_NIEFUN\_1|3 - wydajność|Zapewnienie wydajności|Wymagane jest, aby aplikacja zapewniała wysoką wydajność oraz niezawodność działania, a także krótki czas ładowania danych.|1 (wymagane)|
-|W\_NIEFUN\_2|2 - bezpieczeństwo|Poufność danych|Wymagane jest, aby wszystkie dane w aplikacji były odpowiednio zabezpieczone i chronione przed wyciekiem na zewnątrz.|1 (wymagane)|
-|W\_NIEFUN\_3|1 - projektowe|Wolność oprogramowania|Oprogramowanie jest dostarczane na zasadach wolnego oprogramowania, co oznacza, że jest ono ogólnodostępne dla wszystkich użytkowników i kod jest otwarty.|1 (wymagane)|
-|W\_NIEFUN\_4|1 - projektowe|Kompatybilność |Oprogramowanie klienckie dostępne i działające na konkurencyjnych systemach operacyjnych|2 (oczekiwane)|
-|W\_NIEFUN\_5|4 – ergonomia UI |Design|Wymagane jest by UI był estetyczny oraz atrakcyjny dla użytkownika. Umożliwi to intuicyjne korzystanie z funkcji, które oferuję aplikacja.|3 (dodatkowa)|
+|**ID**|**Nazwa**|**Opis**|**Priorytet**|
+| :-: | :-: | :-: | :-: |
+|W\_NIEFUN\_1|Zmiana motywu| Wymagane jest, aby aplikacja zawierała mechanizm Zmaiany motywu z jasnego na ciemny i odwrotnie. |1 - Wymagane|
+|W\_NIEFUN\_2|Łatwość użycia| Wymagane jest, aby aplikacja powinna być intuicyjna i łatwa w obsłudze. |2 - Oczekiwane|
+|W\_NIEFUN\_3|Wydajność| Wymagane jest, aby aplikacja działałą sprawnie i szybko, bez opóźnień lub przestojów. |2 - Oczekiwane|
+|W\_NIEFUN\_4|Polityka prywatności| Wymagane jest, aby aplikacja przestrzegała odpowiednich przepisów i standardów dotyczących ochrony prywatności użytkowników i danych. |2 - Oczekiwane|
+
 
 ## 3. Architektura oprogramowania
 ### Architektura rozwoju - stack technologiczny
-#### Client-side
-- electron.js
-- angular 11,
-- tailwind css,
-- node.js
-- jest
-
-#### Server-side
-- node.js 
-- crawler 
-- jest
+Języki programowania - Java, XML
+Platforma programistyczna: Android SDK
+Biblioteka do uwierzytelniania: Firebase Authentication
+Biblioteka do MFA: Google Authenticator
+Biblioteka do obsługi UI: Android Jetpack
+Biblioteka do obsługi testów: Espresso
+Baza danych: Google Firebase
 
 #### Architektura rozwoju
-- Visual Studio Code jako edytor kodu,
-- Leapwork (do testów Klienta)
+- Android Studio jako środowisko deweloperskie
+- Architektura Model-View-ViewModel (MVVM) czyli wzorzec projektowy, w którym oddzielone są trzy warstwy: Model (warstwa danych), View (warstwa interfejsu użytkownika) i ViewModel (pośrednik między View a Modelem).
+- Continuous Integration / Continuous Deployment (CI/CD) do automatycznego wdrażania i testowania zmian w kodzie
 
-#### Architektura uruchomieniowa
-- Serwer uruchomiony na wieloplatformowym środowisku uruchomieniowym Node.js,
-- Aplikacja klienta dostępna na systemy operacyjne: macOS, Windows oraz Linux uruchioma na otwartym silniku Chrominium 
-(otwarty projekt przeglądarki internetowej, z którego kod źródłowy czerpią między innymi Google Chrome, sluży do do wyświetlania treści internetowych),
+#### Architektura uruchomieniowa:
+- Aplikacja kliencka uruchamiana na urządzeniach mobilnych z systemem Android
+- Serwer uruchamiany jest we własnej infrastrukturze
+- Wymagana konfiguracja bazy danych i serwera uwierzytelniania w celu przechowywania danych użytkowników i kluczy MFA
+- Android device simalution Compiler
+
