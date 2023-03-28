@@ -50,13 +50,13 @@ Licencja MIT jest uważana za bardzo liberalną, co oznacza, że pozwala na swob
 
 ## 3. Architektura oprogramowania
 ### Architektura rozwoju - stack technologiczny
-Języki programowania - Java, XML
-Platforma programistyczna: Android SDK
-Biblioteka do uwierzytelniania: Firebase Authentication
-Biblioteka do MFA: Google Authenticator
-Biblioteka do obsługi UI: Android Jetpack
-Biblioteka do obsługi testów: Espresso
-Baza danych: Google Firebase
+- Języki programowania - Java, XML
+- Platforma programistyczna: Android SDK
+- Biblioteka do uwierzytelniania: Firebase Authentication
+- Biblioteka do MFA: Google Authenticator
+- Biblioteka do obsługi UI: Android Jetpack
+- Biblioteka do obsługi testów: Espresso
+- Baza danych: Google Firebase
 
 #### Architektura rozwoju
 - Android Studio jako środowisko deweloperskie
