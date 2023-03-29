@@ -29,23 +29,23 @@ Licencja MIT jest uważana za bardzo liberalną, co oznacza, że pozwala na swob
 
 |**ID**|**Nazwa**|**Opis**|**Priorytet**|
 | :-: | :-: | :-: | :-: |
-|W\_FUN\_1|Wyświetlenie ekranu autoryzacji| Wymagane jest, aby aplikacja wyświetlała ekran, na którym klient będzie w stanie dostrzec jakie dane są wymagane do zautoryzowania urządzenia oraz do weryfikacji tożsamosci. Wymagane 5 textboxów z obsługą błędów.|1 - Wymagane|
-|W\_FUN\_2|Uwierzytelnianie| Wymagane jest aby aplikacja zapewniała uwierzytelnienie użytkownika przed udzieleniem mu dostępu do aplikacji. Może to obejmować uwierzytelnianie za pomocą hasła oraz PIN-u lub odcisku palca. |1 - Wymagane|
-|W\_FUN\_3|Zmiana hasła| Wymagane jest, aby aplikacja umożliwiała użytkownikowi możliwość zmainy hasła (do 3 zmian na 24h). Do procedury zmiany hasła wymagana będzie weryfikacja biometryczna (Touch ID). Wymagane jesy aby hasła były przechowywane w bezpieczny sposób oraz był szyfrowane z poziomu w bazy danych. |1 - Wymagane|
-|W\_FUN\_4|Zarządzanie kontami| Zarządzanie kontami: użytkownik powinien mieć możliwość przeglądania stanu swoich kont, historii transakcji oraz dokonywania przelewów. |1 - Wymagane|
-|W\_FUN\_5|Brute force| Wymagane jest aby aplikacja posiadała zabezpieczenia przed atakami. Aplikacja powinna mieć mechanizmy zabezpieczające przed atakami typu brute-force, tj. wielokrotne próby logowania z błędnym hasłem. |1 - Wymagane|
-|W\_FUN\_6|Kokpit| Wymagane jest, aby klient mia wgląd w stan konta/kont. |2 - Oczekiwane|
-|W\_FUN\_7|Multikonta| Wymagane jest, aby aplikacja umożliwiała użytkownikowi korzystanie z kont wielowalutowych. |3 - Dodatkowa|
-|W\_FUN\_8|Synchronizacja z GCP| Wymagane jest, aby aplikacja posiadała synchronizację z GCP |3 - Dodatkowa|
+|1|Wyświetlenie ekranu autoryzacji| Wymagane jest, aby aplikacja wyświetlała ekran, na którym klient będzie w stanie dostrzec jakie dane są wymagane do zautoryzowania urządzenia oraz do weryfikacji tożsamosci. Wymagane 5 textboxów z obsługą błędów.|1 - Wymagane|
+|2|Uwierzytelnianie| Wymagane jest aby aplikacja zapewniała uwierzytelnienie użytkownika przed udzieleniem mu dostępu do aplikacji. Może to obejmować uwierzytelnianie za pomocą hasła oraz PIN-u lub odcisku palca. |1 - Wymagane|
+|3|Zmiana hasła| Wymagane jest, aby aplikacja umożliwiała użytkownikowi możliwość zmainy hasła (do 3 zmian na 24h). Do procedury zmiany hasła wymagana będzie weryfikacja biometryczna (Touch ID). Wymagane jesy aby hasła były przechowywane w bezpieczny sposób oraz był szyfrowane z poziomu w bazy danych. |1 - Wymagane|
+|4|Zarządzanie kontami| Zarządzanie kontami: użytkownik powinien mieć możliwość przeglądania stanu swoich kont, historii transakcji oraz dokonywania przelewów. |1 - Wymagane|
+|5|Brute force| Wymagane jest aby aplikacja posiadała zabezpieczenia przed atakami. Aplikacja powinna mieć mechanizmy zabezpieczające przed atakami typu brute-force, tj. wielokrotne próby logowania z błędnym hasłem. |1 - Wymagane|
+|6|Kokpit| Wymagane jest, aby klient mia wgląd w stan konta/kont. |2 - Oczekiwane|
+|7|Multikonta| Wymagane jest, aby aplikacja umożliwiała użytkownikowi korzystanie z kont wielowalutowych. |3 - Dodatkowa|
+|8|Synchronizacja z GCP| Wymagane jest, aby aplikacja posiadała synchronizację z GCP |3 - Dodatkowa|
 
 2) **Wymagania niefuncjonalne**
 
 |**ID**|**Nazwa**|**Opis**|**Priorytet**|
 | :-: | :-: | :-: | :-: |
-|W\_NIEFUN\_1|Zmiana motywu| Wymagane jest, aby aplikacja zawierała mechanizm Zmaiany motywu z jasnego na ciemny i odwrotnie. |1 - Wymagane|
-|W\_NIEFUN\_2|Łatwość użycia| Wymagane jest, aby aplikacja powinna być intuicyjna i łatwa w obsłudze. |2 - Oczekiwane|
-|W\_NIEFUN\_3|Wydajność| Wymagane jest, aby aplikacja działałą sprawnie i szybko, bez opóźnień lub przestojów. |2 - Oczekiwane|
-|W\_NIEFUN\_4|Polityka prywatności| Wymagane jest, aby aplikacja przestrzegała odpowiednich przepisów i standardów dotyczących ochrony prywatności użytkowników i danych. |2 - Oczekiwane|
+|1|Zmiana motywu| Wymagane jest, aby aplikacja zawierała mechanizm Zmaiany motywu z jasnego na ciemny i odwrotnie. |1 - Wymagane|
+|2|Łatwość użycia| Wymagane jest, aby aplikacja powinna być intuicyjna i łatwa w obsłudze. |2 - Oczekiwane|
+|3|Wydajność| Wymagane jest, aby aplikacja działałą sprawnie i szybko, bez opóźnień lub przestojów. |2 - Oczekiwane|
+|4|Polityka prywatności| Wymagane jest, aby aplikacja przestrzegała odpowiednich przepisów i standardów dotyczących ochrony prywatności użytkowników i danych. |2 - Oczekiwane|
 
 
 ## 3. Architektura oprogramowania
