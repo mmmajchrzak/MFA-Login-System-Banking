@@ -2,8 +2,8 @@
 
 ## 1. Charakterystyka oprogramowowania
 
-* Nazwa pełna: **System bezpiecznej bankowości mobilnej na urządzenia z systemem operacyjnym Android**
-* Krótki opis: Aplikacja mobilna na urządzenia z systemem operacyjnym Android, umożliwiająca użytkownikom bezpieczną bankowość mobilną. Aplikacja wykorzytuje MFA - Multi-factor authentication w celu zabezpieczenia aplikacji przed dostępem osób nieporządanych.
+* Nazwa: **System bezpiecznej bankowości mobilnej na urządzenia z systemem operacyjnym Android**
+* Opis: Aplikacja mobilna na urządzenia z systemem operacyjnym Android, umożliwiająca użytkownikom bezpieczną bankowość mobilną. Aplikacja wykorzytuje MFA - Multi-factor authentication w celu zabezpieczenia aplikacji przed dostępem osób nieporządanych.
 #### Cele: 
 * System umożliwia klientom rejestrację konta i logowanie,
 * Wymagane pola do rejestracji obejmują imię, nazwisko, numer ID klienta, numer telefonu, adres e-mail oraz hasło,
@@ -67,5 +67,5 @@ Licencja MIT jest uważana za bardzo liberalną, co oznacza, że pozwala na swob
 - Aplikacja kliencka uruchamiana na urządzeniach mobilnych z systemem Android
 - Serwer uruchamiany jest we własnej infrastrukturze
 - Wymagana konfiguracja bazy danych i serwera uwierzytelniania w celu przechowywania danych użytkowników i kluczy MFA
-- Android device simalution Compiler
+- Android device simalution Compiler (PROD)
 
