@@ -42,10 +42,10 @@ Licencja MIT jest uważana za bardzo liberalną, co oznacza, że pozwala na swob
 |**ID**|**Nazwa**|**Opis**|**Priorytet**|
 | :-: | :-: | :-: | :-: |
 |1|Design|Wymagane jest by UI był estetyczny oraz łatwy w obsłudze. Umożliwi to intuicyjne korzystanie z funkcji oferowanych przez aplikację. |1 - Wymagane|
-|2|Łatwość użycia| Wymagane jest, aby aplikacja powinna być intuicyjna i łatwa w obsłudze. |2 - Oczekiwane|
-|3|Wydajność| Wymagane jest, aby aplikacja działałą sprawnie i szybko, bez opóźnień lub przestojów. |2 - Oczekiwane|
-|4|Polityka prywatności| Wymagane jest, aby aplikacja przestrzegała odpowiednich przepisów i standardów dotyczących ochrony prywatności użytkowników i danych. |2 - Oczekiwane|
-|5|Brute force| Wymagane jest aby aplikacja posiadała zabezpieczenia przed atakami. Aplikacja powinna mieć mechanizmy zabezpieczające przed atakami typu brute-force, tj. wielokrotne próby logowania z błędnym hasłem. |1 - Wymagane|
+|2|Brute force| Wymagane jest aby aplikacja posiadała zabezpieczenia przed atakami. Aplikacja powinna mieć mechanizmy zabezpieczające przed atakami typu brute-force, tj. wielokrotne próby logowania z błędnym hasłem. |1 - Wymagane|
+|3|Łatwość użycia| Wymagane jest, aby aplikacja powinna być intuicyjna i łatwa w obsłudze. |2 - Oczekiwane|
+|4|Wydajność| Wymagane jest, aby aplikacja działałą sprawnie i szybko, bez opóźnień lub przestojów. |2 - Oczekiwane|
+|5|Polityka prywatności| Wymagane jest, aby aplikacja przestrzegała odpowiednich przepisów i standardów dotyczących ochrony prywatności użytkowników i danych. |2 - Oczekiwane|
 
 
 ## 3. Architektura oprogramowania
