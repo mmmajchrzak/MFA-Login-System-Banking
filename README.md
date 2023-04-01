@@ -62,7 +62,6 @@ Licencja MIT jest uważana za bardzo liberalną, co oznacza, że pozwala na swob
 - Platforma programistyczna: Android SDK
 - Biblioteka do uwierzytelniania: Firebase Authentication
 - Biblioteka do MFA: Google Authenticator
-- Biblioteka do obsługi UI: Android Jetpack
 - Biblioteka do obsługi testów: Espresso
 - Baza danych: Google Firebase
 
