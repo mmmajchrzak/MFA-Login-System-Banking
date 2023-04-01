@@ -14,6 +14,7 @@
 #### Cele: 
 * System umożliwia klientom rejestrację konta i logowanie,
 * Wymagane pola do rejestracji obejmują imię, nazwisko, numer ID klienta, numer telefonu, adres e-mail oraz hasło,
+* Wymagane pola do logowania ID + hasło,
 * Klienci posiadają możliwość zmiany swojego hasła i innych danych profilu,
 * Obsługa blędów - w przypadku nieprawidłowego wprowadzenia danych logowania, użytkownik otrzymuje stosowny komunikat,
 * Hasła są przechowywane w bezpieczny sposób oraz są szyfrowane z poziomu w bazy danych,
@@ -37,7 +38,7 @@ Licencja MIT jest uważana za bardzo liberalną, co oznacza, że pozwala na swob
 |**ID**|**Nazwa**|**Opis**|**Priorytet**|
 | :-: | :-: | :-: | :-: |
 |1|Wyświetlenie ekranu autoryzacji| Wymagane jest, aby aplikacja wyświetlała ekran, na którym klient będzie w stanie dostrzec jakie dane są wymagane do zautoryzowania urządzenia oraz do weryfikacji tożsamosci. Wymagane 5 textboxów z obsługą błędów.|1 - Wymagane|
-|2|Uwierzytelnianie| Wymagane jest aby aplikacja zapewniała uwierzytelnienie użytkownika przed udzieleniem mu dostępu do aplikacji. Może to obejmować uwierzytelnianie za pomocą hasła oraz PIN-u lub odcisku palca. |1 - Wymagane|
+|2|Uwierzytelnianie| Wymagane jest aby aplikacja zapewniała uwierzytelnienie użytkownika przed udzieleniem mu dostępu do aplikacji. Może to obejmować uwierzytelnianie za pomocą hasła oraz odcisku palca. |1 - Wymagane|
 |3|Zmiana hasła| Wymagane jest, aby aplikacja umożliwiała użytkownikowi możliwość zmiany hasła (do 3 zmian na 24h). Do procedury zmiany hasła wymagana będzie weryfikacja biometryczna (Touch ID). Wymagane jest aby hasła były przechowywane w bezpieczny sposób oraz były szyfrowane z poziomu w bazy danych. |1 - Wymagane|
 |4|Zarządzanie kontami| Użytkownik powinien mieć możliwość przeglądania stanu swoich kont, historii transakcji oraz dokonywania przelewów. |1 - Wymagane|
 |5|Kokpit| Wymagane jest, aby klient miał wgląd w stan konta/kont. |2 - Oczekiwane|
