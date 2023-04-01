@@ -38,9 +38,9 @@ Licencja MIT jest uważana za bardzo liberalną, co oznacza, że pozwala na swob
 | :-: | :-: | :-: | :-: |
 |1|Wyświetlenie ekranu autoryzacji| Wymagane jest, aby aplikacja wyświetlała ekran, na którym klient będzie w stanie dostrzec jakie dane są wymagane do zautoryzowania urządzenia oraz do weryfikacji tożsamosci. Wymagane 5 textboxów z obsługą błędów.|1 - Wymagane|
 |2|Uwierzytelnianie| Wymagane jest aby aplikacja zapewniała uwierzytelnienie użytkownika przed udzieleniem mu dostępu do aplikacji. Może to obejmować uwierzytelnianie za pomocą hasła oraz PIN-u lub odcisku palca. |1 - Wymagane|
-|3|Zmiana hasła| Wymagane jest, aby aplikacja umożliwiała użytkownikowi możliwość zmainy hasła (do 3 zmian na 24h). Do procedury zmiany hasła wymagana będzie weryfikacja biometryczna (Touch ID). Wymagane jesy aby hasła były przechowywane w bezpieczny sposób oraz był szyfrowane z poziomu w bazy danych. |1 - Wymagane|
-|4|Zarządzanie kontami| Zarządzanie kontami: użytkownik powinien mieć możliwość przeglądania stanu swoich kont, historii transakcji oraz dokonywania przelewów. |1 - Wymagane|
-|5|Kokpit| Wymagane jest, aby klient mia wgląd w stan konta/kont. |2 - Oczekiwane|
+|3|Zmiana hasła| Wymagane jest, aby aplikacja umożliwiała użytkownikowi możliwość zmainy hasła (do 3 zmian na 24h). Do procedury zmiany hasła wymagana będzie weryfikacja biometryczna (Touch ID). Wymagane jesy aby hasła były przechowywane w bezpieczny sposób oraz były szyfrowane z poziomu w bazy danych. |1 - Wymagane|
+|4|Zarządzanie kontami| Użytkownik powinien mieć możliwość przeglądania stanu swoich kont, historii transakcji oraz dokonywania przelewów. |1 - Wymagane|
+|5|Kokpit| Wymagane jest, aby klient miał wgląd w stan konta/kont. |2 - Oczekiwane|
 |6|Multikonta| Wymagane jest, aby aplikacja umożliwiała użytkownikowi korzystanie z kont wielowalutowych. |3 - Dodatkowa|
 |7|Synchronizacja z GCP| Wymagane jest, aby aplikacja posiadała synchronizację z GCP |3 - Dodatkowa|
 
