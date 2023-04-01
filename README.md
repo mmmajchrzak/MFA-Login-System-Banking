@@ -44,7 +44,6 @@ Licencja MIT jest uważana za bardzo liberalną, co oznacza, że pozwala na swob
 |6|Auto logout| Wymagane jest, aby aplikacja automatycznie wylogowywała klienta po minucie bezczynności. |2 - Oczekiwane|
 |7|Multikonta| Wymagane jest, aby aplikacja umożliwiała użytkownikowi korzystanie z kont wielowalutowych. |3 - Dodatkowa|
 |8|Synchronizacja z GCP| Wymagane jest, aby aplikacja posiadała synchronizację z GCP |3 - Dodatkowa|
-|9|Auto logout| Wymagane jest, aby aplikacja automatycznie wylogowywała klienta po minucie bezczynności|3 - Dodatkowa|
 
 2) **Wymagania niefuncjonalne**
 
