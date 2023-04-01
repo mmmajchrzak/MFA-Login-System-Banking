@@ -38,11 +38,13 @@ Licencja MIT jest uważana za bardzo liberalną, co oznacza, że pozwala na swob
 | :-: | :-: | :-: | :-: |
 |1|Wyświetlenie ekranu autoryzacji| Wymagane jest, aby aplikacja wyświetlała ekran, na którym klient będzie w stanie dostrzec jakie dane są wymagane do zautoryzowania urządzenia oraz do weryfikacji tożsamosci. Wymagane 5 textboxów z obsługą błędów.|1 - Wymagane|
 |2|Uwierzytelnianie| Wymagane jest aby aplikacja zapewniała uwierzytelnienie użytkownika przed udzieleniem mu dostępu do aplikacji. Może to obejmować uwierzytelnianie za pomocą hasła oraz PIN-u lub odcisku palca. |1 - Wymagane|
-|3|Zmiana hasła| Wymagane jest, aby aplikacja umożliwiała użytkownikowi możliwość zmainy hasła (do 3 zmian na 24h). Do procedury zmiany hasła wymagana będzie weryfikacja biometryczna (Touch ID). Wymagane jesy aby hasła były przechowywane w bezpieczny sposób oraz były szyfrowane z poziomu w bazy danych. |1 - Wymagane|
+|3|Zmiana hasła| Wymagane jest, aby aplikacja umożliwiała użytkownikowi możliwość zmiany hasła (do 3 zmian na 24h). Do procedury zmiany hasła wymagana będzie weryfikacja biometryczna (Touch ID). Wymagane jest aby hasła były przechowywane w bezpieczny sposób oraz były szyfrowane z poziomu w bazy danych. |1 - Wymagane|
 |4|Zarządzanie kontami| Użytkownik powinien mieć możliwość przeglądania stanu swoich kont, historii transakcji oraz dokonywania przelewów. |1 - Wymagane|
 |5|Kokpit| Wymagane jest, aby klient miał wgląd w stan konta/kont. |2 - Oczekiwane|
-|6|Multikonta| Wymagane jest, aby aplikacja umożliwiała użytkownikowi korzystanie z kont wielowalutowych. |3 - Dodatkowa|
-|7|Synchronizacja z GCP| Wymagane jest, aby aplikacja posiadała synchronizację z GCP |3 - Dodatkowa|
+|6|Auto logout| Wymagane jest, aby aplikacja automatycznie wylogowywała klienta po minucie bezczynności. |2 - Oczekiwane|
+|7|Multikonta| Wymagane jest, aby aplikacja umożliwiała użytkownikowi korzystanie z kont wielowalutowych. |3 - Dodatkowa|
+|8|Synchronizacja z GCP| Wymagane jest, aby aplikacja posiadała synchronizację z GCP |3 - Dodatkowa|
+|9|Auto logout| Wymagane jest, aby aplikacja automatycznie wylogowywała klienta po minucie bezczynności|3 - Dodatkowa|
 
 2) **Wymagania niefuncjonalne**
 
