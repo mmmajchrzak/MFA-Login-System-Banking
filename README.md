@@ -6,9 +6,9 @@
 * Opis: Aplikacja mobilna na urządzenia z systemem operacyjnym Android, umożliwiająca użytkownikom bezpieczną bankowość mobilną. Aplikacja wykorzytuje MFA - Multi-factor authentication w celu zabezpieczenia aplikacji przed dostępem osób nieporządanych. System wykorzystuje jedynie Fingerprint Authentication, uniemożliwia MFA za pomocą Face Recognition.
 
 
-* Sprzęt: Face ID wykorzystuje specjalistyczny sprzęt zwany kamerą TrueDepth, który obejmuje projektor punktowy, kamerę na podczerwień i oświetlacz, aby uchwycić i przeanalizować twarz użytkownika. Ten sprzęt zapewnia dodatkowe funkcje bezpieczeństwa, takie jak mapowanie głębi i rozpoznawanie twarzy 3D, co utrudnia atakującym sfałszowanie systemu. W przeciwieństwie do tego, wiele urządzeń z systemem Android polega wyłącznie na przedniej kamerze do przechwytywania i analizowania twarzy użytkownika.
+* Face ID wykorzystuje specjalistyczny sprzęt zwany kamerą TrueDepth, który obejmuje projektor punktowy, kamerę na podczerwień i oświetlacz, aby uchwycić i przeanalizować twarz użytkownika. Ten sprzęt zapewnia dodatkowe funkcje bezpieczeństwa, takie jak mapowanie głębi i rozpoznawanie twarzy 3D, co utrudnia atakującym sfałszowanie systemu. W przeciwieństwie do tego, wiele urządzeń z systemem Android polega wyłącznie na przedniej kamerze do przechwytywania i analizowania twarzy użytkownika.
 
-* Oprogramowanie: Face ID wykorzystuje zaawansowane algorytmy do mapowania i analizowania twarzy użytkownika, w tym sieci neuronowe i techniki uczenia maszynowego. Algorytmy te są stale aktualizowane i udoskonalane, co utrudnia napastnikom obejście systemu. W przeciwieństwie do tego, niektóre urządzenia z systemem Android mogą używać prostszych algorytmów, które mogą być łatwiejsze do zmanipulowania.
+* Face ID wykorzystuje zaawansowane algorytmy do mapowania i analizowania twarzy użytkownika, w tym sieci neuronowe i techniki uczenia maszynowego. Algorytmy te są stale aktualizowane i udoskonalane, co utrudnia napastnikom obejście systemu. W przeciwieństwie do tego, niektóre urządzenia z systemem Android mogą używać prostszych algorytmów, które mogą być łatwiejsze do zmanipulowania.
 
 
 #### Cele: 
